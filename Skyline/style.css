@@ -1,0 +1,198 @@
+body{
+    background-color:  #ededed;
+    font-family: 'Cairo';
+    font-size: 15px;
+  
+}
+
+.title{
+    color: #af842d;
+    text-align: center;
+    font-size: 25px;
+}
+
+.img-logo{
+   
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
+   
+    
+     
+}
+
+
+.side-img{
+    width: 100%;
+    height: 100%;
+    
+    margin-top: 5vh;
+}
+
+.btn-contact{
+    width: 150px;
+    height: 50px;
+    background-color: #af842d;
+    color:white;
+    border: none;
+  
+}
+
+
+.project{
+   height: 100%;
+   margin-top: 15%;
+}
+
+.list-item{
+    display: inline-block;
+    height: 150px;
+    height: 125px;
+    color: #af842d;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+
+
+.img-service{
+    object-fit: cover;
+}
+
+
+
+.info{
+    text-align: right;
+    font-size: 20px;
+}
+
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.owl-prev {
+  left: 25rem;
+}
+
+.owl-next {
+  left: 20rem;
+}
+
+
+
+
+
+input{
+    width: 300px;
+    height: 60px;
+   
+    border: 1px white;
+    border-radius: 5px;
+}
+#phone{
+    width: 300px;
+    height: 60px;
+}
+
+#textarea{
+    width: 300px;
+    height: 175px;
+    
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-submit{
+    width: 80%;
+    height: 25%;
+    background-color: #af842d;
+    color: white;
+    border: none;
+  
+}
+
+.information .info-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+
+}
+
+.information 
+    .info-item .no-side{
+        background-color:#af842d;
+        width: 50px;
+        height: 50px;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        padding-top: 15px;
+        font-weight: bold;
+    }
+
+
+.information .info-item p {
+    width: calc(100% - 60px);
+}
+
+.item{
+    width: 100%;
+    height: 50%;
+}
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 89%;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    margin-top: 16px;
+}
+.footer{
+    color: white;
+    background-color: #333;
+    height: 30%;
+}
+
+@media (max-width: 992px) {
+
+    .list-item{
+        display: flexbox;
+        width: 45%;
+        height: 40%;
+        justify-content: center;
+        text-align: center;
+        margin: 1%;
+        font-size: 15px;
+        border-radius: 5px;
+        border: 1px whitesmoke;
+    }
+
+    .whatsapp-icon {
+        margin-top: 10px;
+    }
+
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 40px;
+        right: 89%;
+        font-size: 22px;
+    }
+    
+}
