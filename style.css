@@ -393,6 +393,15 @@ main#home h1 {
     font-size: 15px;
     padding: 5px 5px;
   }
+  .boxes a {
+    padding: 5px 5px;
+  }
+  .boxes i {
+    padding: 5px 5px;
+  }
+  .boxes .fab .fas {
+    padding: 5px 5px;
+  }
 }
 @media screen and (min-width: 1171) {
   .projects {
