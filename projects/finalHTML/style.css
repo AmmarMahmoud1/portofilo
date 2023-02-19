@@ -1,0 +1,152 @@
+
+body{
+    background: linear-gradient(
+    145deg,
+    rgb(70, 112, 188)  0%,
+    rgb(9, 28, 46)   25%,
+    
+    rgb(0, 1, 6) 100%
+  );
+
+  color:aliceblue;
+  font-family: 'Signika Negative', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+    background: linear-gradient(
+        145deg,
+        rgb(70, 112, 188)  0%,
+        rgb(9, 28, 46)   25%,
+        
+        rgb(0, 1, 6) 100%
+      );
+    
+}
+.nav:hover{
+ 
+    opacity: 0.75;
+}
+.nav-item {
+   
+    font-size: 15px;
+    margin: 3vw 3vh;
+}
+.item{
+    list-style: none;
+
+}
+
+.item a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+.item a:hover{
+    color:rgb(125, 125, 125);
+}
+.content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
+.story{
+    background: linear-gradient(
+        145deg,
+        rgb(70, 112, 188)  0%,
+        rgb(9, 28, 46)   25%,
+        
+        rgb(0, 1, 6) 100%
+      );
+      padding: 5% 5%;
+      margin: 1% 1%;
+
+      width: 35%;
+}
+
+.story:hover{
+    opacity: 0.75;
+}
+h1{
+    padding-left: 18%;
+}
+p{
+    width: 20vw;
+}
+.img{
+    width: 15vw;
+    height: 45vh;
+    padding-left: 15%;
+}
+
+.logo{
+   font-family: 'Signika Negative', sans-serif;
+
+}
+
+button{
+  margin-left: 70%;
+  color: aliceblue;
+  background-color: rgb(69, 69, 111);
+  height: 15%;
+  width: 25%;
+  border-radius: 10px;
+}
+
+button:hover{
+    background: linear-gradient(
+        145deg,
+        rgb(70, 112, 188)  0%,
+        rgb(9, 28, 46)   25%,
+        
+        rgb(0, 1, 6) 100%
+      );
+      height: 25%;
+      width: 40%;
+      font-weight: bolder;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        145deg,
+        rgb(70, 112, 188)  0%,
+        rgb(9, 28, 46)   25%,
+        
+        rgb(0, 1, 6) 100%
+      );
+}
+ .icon{
+    color: whitesmoke;
+    height: 5%;
+    width: 5%;
+    padding-left: ;
+ }
+
+.contact-item{
+    color: #e3ac21;
+    padding-left: 15px;
+}
+
+
+.footer-text{
+    font-size: 15px;
+    color: aliceblue;
+    padding-top: 2%;
+}
+
+.contact:hover{
+    background: linear-gradient(
+        145deg,
+        rgb(70, 112, 188)  0%,
+        rgb(9, 28, 46)   25%,
+        
+        rgb(0, 1, 6) 100%
+      );
+}
